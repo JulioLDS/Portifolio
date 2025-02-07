@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Julio</title>
+</head>
+
+<body>
+    <script src="animacao.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+    <nav>
+        <div class="logo">Julio</div>
+        <ul class="menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <ul class="menuHamburguer">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <button class="hamburguer">
+        <span></span>
+    </button>
+    <script src="menu.js"></script>
+
+    <!-- CORPO SITE -->
+    <div class="content">
+
+        <div id="home">
+            <div class="home animate-from-left">
+                <div class="desc ">
+                    <h2 class="cssanimation leFadeInBottom sequence">Desenvolvedor FrontEnd</h2>
+                    <h1 class="cssanimation leFadeInBottom sequence">Olá eu sou</h1>
+                    <h1 class="cssanimation leFadeInBottom sequence" id="name">Julio Lima</h1><br>
+                    <h3 class="cssanimation leFadeInBottom sequence">Formado em Técnico em Desenvolvimento de Sistemas
+                    </h3>
+                    <br>
+                    <a href="#contato"><button class="button">Entre em contato</button></a>
+                    <div class="links">
+                        <a href="https://github.com/JulioLDS" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a id="linkedin" href="https://www.linkedin.com/in/juliolimaa/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="foto">
+                    <div class="rosto"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sobre">
+            <div class="sobre animate-from-right">
+                <div class="foto">
+                    <div class="rosto"></div>
+                </div>
+                <div class="desc">
+                    <h1>Um pouco</h1>
+                    <h1 id="name">sobre mim</h1><br><br>
+                    <h3>Olá, meu nome é Julio Lima, sou formado em Técnico em Desenvolvimento de Sistemas e atualmente estou cursando tecnólogo em ADS.</h3><br>
+                    <h3>Meu foco é em HTML, CSS e JavaScript dentro do desenvolvimento Web, construindo projetos para aprimorar minhas habilidades e mostrar minha jornada e evolução.</h3>
+                    <br>
+                    <a href="#contato"><button class="button">Entre em contato</button></a>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div id="conhecimentos">
+            <div class="conhecimentos animate-from-left">
+                <div class="desc">
+                    <h1>Meus</h1>
+                    <h1 id="name">Conhecimentos</h1><br><br>
+                    <h3>Atualmente realizo e posto projetos utilizando a linguagem de marcação HTML, a linguagem de estilização CSS e a linguagem de programação JavaScript no github, representados respectivamente abaixo:</h3><br>
+                </div>
+
+                <div class="botoes-magneticos">
+                    <div class="magnet" data-icon="html5">
+                        <i id="linguagens" class="fab fa-html5"></i>
+                    </div>
+                    <div class="magnet" data-icon="css3">
+                        <i id="linguagens" class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="magnet" data-icon="js">
+                        <i id="linguagens" class="fab fa-js"></i>
+                    </div>
+                    <div class="magnet" data-icon="react">
+                        <i id="linguagens" class="fa fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="buttons.js"></script>
+        <br><br>
+        <div id="experiencias" class="descExperiencias animate-from-bottom">
+            <h1>Minhas</h1>
+            <h1 id="name">Experiências</h1><br>
+
+            <div class="experiencias">
+
+                <ul>
+                    <li>
+                        <h3 class="heading animate-from-right">Entrada na Etec</h3>
+                        <p class="animate-from-right">Meu primeiro dia matriculado na escola técnica ETEC Dr Celso Gíglio. </p>
+
+                        <span class="date animate-from-right">Janeiro 2022</span>
+                        <span class="circle animate-from-right"></span>
+                    </li>
+                    <li>
+                        <h3 class="heading animate-from-left">1º CGTEC</h3>
+                        <p class="animate-from-left">Feira Técnica de Tecnologia, apresentação de uma página Web. </p>
+
+                        <span class="date animate-from-left">Novembro 2022</span>
+                        <span class="circle animate-from-left"></span>
+                    </li>
+                    <li>
+                        <h3 class="heading animate-from-right">2º CGTEC</h3>
+                        <p class="animate-from-right">Apresentação de uma aplicação que resolve operações matemáticas específicas. </p>
+
+                        <span class="date animate-from-right">Novembro 2023</span>
+                        <span class="circle animate-from-right"></span>
+                    </li>
+                    <li>
+                        <h3 class="heading animate-from-left">Feira das Profissões</h3>
+                        <p class="animate-from-left">Participação da feira de profissoes na universidade Crusseiro do Sul.</p>
+
+                        <span class="date animate-from-left">Setembro 2024</span>
+                        <span class="circle animate-from-left"></span>
+                    </li>
+                    <li>
+                        <h3 class="heading animate-from-right">3º CGTEC</h3>
+                        <p class="animate-from-right">Pré apresentação do projeto de TCC. </p>
+
+                        <span class="date animate-from-right">Novembro 2024</span>
+                        <span class="circle animate-from-right"></span>
+                    </li>
+                    <li>
+                        <h3 class="heading animate-from-left">Apresentação do TCC</h3>
+                        <p class="animate-from-left">Apresentação de um Sistema de Irrigação Automática com um microcontrolador e uma página web para o controle. </p>
+
+                        <span class="date animate-from-left">Dezembro 2024</span>
+                        <span class="circle animate-from-left"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="projetos">
+            <div class="projetos animate-from-right">
+                <div class="desc">
+                    <h1>Meus</h1>
+                    <h1 id="name">Projetos</h1><br><br>
+                    <h3>Alguns projetos publicados no github.</h3><br>
+                </div>
+
+                <div class="cards">
+
+                    <div class="card-container">
+                        <div class="card loginCard">
+                            <div class="front-content">
+                                
+                            </div>
+                            <div class="content">
+                                <p class="heading">Login e Cadastro</p>
+                                <p>
+                                    Págida apenas demonstrativa de Login e Cadastro de usuários com design intuitivo. Construida para a prática da linguagem de programação javaScript.
+                                </p>
+                            </div>
+                            <a href="https://juliolds.github.io/Login-e-Cadastro/login.html"><button class="animated-button">
+                                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text">Ver Projeto</span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                </button></a>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card gameCard">
+                            <div class="front-content">
+                                
+                            </div>
+                            <div class="content">
+                                <p class="heading">Jogo da Velha</p>
+                                <p>
+                                    Jogo da Velha com javaScrip, html e css que roda em uma página web, construída com oobjetivo de estudar alguns fundamentos e tags em JavaScript.
+                                </p>
+                            </div>
+                            <a href="https://juliolds.github.io/Jogo-da-Velha/JogoDaVelha.html"><button class="animated-button">
+                                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text">Ver Projeto</span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                </button></a>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card calcCard">
+                            <div class="front-content">
+                                
+                            </div>
+                            <div class="content">
+                                <p class="heading">Calculadora</p>
+                                <p>
+                                    Projeto de Calculadora utilizando JavaScript a fim de treinar funções e estilizações.
+                                </p>
+                            </div>
+                            <a href="https://juliolds.github.io/Calculadora-JS/"><button class="animated-button">
+                                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text">Ver Projeto</span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                </button></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="contato" class="contato animate-from-bottom">
+            <div class="contact">Contato</div>
+            <form action="https://formsubmit.co/juliolima1401@gmail.com" method="POST" data-form>
+                <input type="hidden" name="_captcha" value="false">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button id="enviar" type="submit" data-button>Enviar</button>
+            </form>
+        </div>
+        <script defer src="app.js"></script>
+    </div>
+
+    <!-- BOTÃO VOLTAR PARA O TOPO  -->
+
+    <button class="back-to-top" id="backToTop"><i class="fa fa-angle-up"></i></button>
+
+    <script>
+        const backToTopButton = document.getElementById('backToTop');
+
+        // Monitora o scroll da página
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > window.innerHeight) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Função para voltar ao topo
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+    <!-- RODAPÉ  -->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Julio</h1>
+                <p>E este foi o meu portifólio.</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.linkedin.com/in/juliolimaa/" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/JulioLDS" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Disponibilidade</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Buscando oportunidades</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Aceitando desafios</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Interessado em novos projetos</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Tecnologias</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Html</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Css</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">JavaScript</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+
+                <p>
+                    Entre com seu gmail e me mande uma mensagem sobre oque achou 😊
+                </p>
+
+
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2025 todos os direitos reservados
+        </div>
+    </footer>
+</body>
+
+</html>
