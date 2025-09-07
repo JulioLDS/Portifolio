@@ -26,25 +26,25 @@ Meu primeiro portifólio, simples e somente para desktop utilizando uma paleta d
 - Registrar minha evolução como desenvolvedor
 
 ---
-    **📌 Tela inicial**
+**📌 Tela inicial**
     
 ![Screenshot](images/screenshot.png)
 
-    **✨ Sobre mim**
+**✨ Sobre mim**
     
 ![Screenshot](images/sobre.png)
 
 ![Screenshot](images/conhecimentos.png)
 
-    **💻 Projetos**
+**💻 Projetos**
     
 ![Screenshot](images/projetos.png)
     
-    **📈 Trajetória**
+**📈 Trajetória**
     
 ![Screenshot](images/trajetoria.png)
     
-    **📬 Área de contato (com integração via Gmail)**
+**📬 Área de contato (com integração via Gmail)**
     
 ![Screenshot](images/contato.png)
     
