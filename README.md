@@ -28,7 +28,7 @@ Meu primeiro portifólio, simples e somente para desktop utilizando uma paleta d
 ---
     **📌 Tela inicial**
     
-![Screenshot](images/telaInicial.png)
+![Screenshot](images/screenshot.png)
 
     **✨ Sobre mim**
     
