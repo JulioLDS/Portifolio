@@ -1,27 +1,29 @@
-# ☕ Cafeteria LandPage
+# 💼 Portfólio Autoral
 
-Uma LandPage simples e moderna para uma cafeteria, criada como projeto de treino de **design e front-end**.  
-Inclui integração com **JavaScript** para exibir o endereço usando **Google Maps**.
+Meu primeiro portifólio, simples e somente para desktop utilizando uma paleta de cores café. Apesar de ser antigo e ter outros melhores, gosto de mante-lô para enxergar minha evolução  
 
 ---
 
-💡 **Recursos principais:**
-- Interface limpa e atraente
-- Navegação intuitiva
-- Responsiva para diferentes dispositivos
-- Localização da cafeteria exibida diretamente no mapa 🗺️
-- Código organizado e fácil de entender
+📌 **Seções principais:**
+- ✨ Sobre mim
+- 💻 Projetos
+- 📈 Trajetória
+- 📬 Área de contato (com integração via Gmail)
+
+---
 
 🎨 **Tecnologias utilizadas:**
 - HTML5
-- CSS3 (foco em design moderno)
-- JavaScript (para integração com o mapa)
+- CSS3 (estilização e responsividade)
+- JavaScript (funcionalidades interativas e integração com email)
 
-✨ **Objetivo do projeto:**
-- Treinar habilidades de design de interfaces 🎨
-- Manipulação de JavaScript para funcionalidades práticas ⚡
-- Criar uma página funcional e agradável de usar ☕
+---
 
+🚀 **Objetivo do projeto:**
+- Praticar conhecimentos de **front-end**
+- Criar um espaço para organizar e exibir projetos
+- Construir uma identidade visual própria
+- Registrar minha evolução como desenvolvedor
 
 
 
