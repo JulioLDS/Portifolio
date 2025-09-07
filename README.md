@@ -25,6 +25,7 @@ Meu primeiro portifólio, simples e somente para desktop utilizando uma paleta d
 - Construir uma identidade visual própria
 - Registrar minha evolução como desenvolvedor
 
+![Screenshot](images/screenshot.png)
 
 
 🌐 **Veja a página online:** [https://JulioLDS.github.io/Portifolio/](https://JulioLDS.github.io/Portifolio/)
